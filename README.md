@@ -3,12 +3,12 @@
 First, create firestore app and create .env.local file and configure setting maybe you can use .env.local.example for reference and replace local variables
 
 ```bash
-    API_KEY = <apiKey>
-    AUTH_DOMAIN = <authDomain>
-    PROJECT_ID = <projectId>
-    STORAGE_BUCKET = <storageBucket>
-    MESSAGING_SENDER_ID = <messagingSenderId>
-    APP_ID = <appId>
+    NEXT_PUBLIC_API_KEY = <apiKey>
+    NEXT_PUBLIC_AUTH_DOMAIN = <authDomain>
+    NEXT_PUBLIC_PROJECT_ID = <projectId>
+    NEXT_PUBLIC_STORAGE_BUCKET = <storageBucket>
+    NEXT_PUBLIC_MESSAGING_SENDER_ID = <messagingSenderId>
+    NEXT_PUBLIC_APP_ID = <appId>
 ```
 
 Second, run the development server:
